@@ -101,7 +101,8 @@
     "cleave.js": "^1.5.3",
     "flag-icons": "7.1.0",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "stripe": "^16.0.0"
   },
   "browserslist": [
     "last 2 versions",
@@ -118,5 +119,8 @@
       "pre-commit": "npm run lint",
       "pre-push": "npm run test"
     }
+  },
+  "paths": {
+    "base": "../storefront-reference-architecture/cartridges/app_storefront_base/"
   }
 }
